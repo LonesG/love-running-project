@@ -158,7 +158,7 @@ hr {
     
     border-top: 1px solid #3a3a3a;
     width: 100%;
-    margin 5px 0;
+    margin: 5px 0;
 
 
 }
@@ -215,4 +215,68 @@ hr {
 }
 #times h2 {
     color: #fafafa;
+}
+/* footer */
+
+footer {
+    height: 150px;
+    }
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/* gallery*/
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+#photos > img {
+    width: 100%;
+}
+
+/* media query */
+/* for larger to medium screen sizes from 1200px wide and down*/
+@media screen and (max-width: 1200px) {
+#club-ethos {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+#welcome {
+    padding: 30px;
+    margin: 0;
+    
+}
+
+#left-about, #right-about {
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+
+#center-about {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+
+hr {display:none;}
+    
 }
